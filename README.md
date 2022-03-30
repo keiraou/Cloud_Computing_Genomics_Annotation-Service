@@ -27,6 +27,7 @@ This project built out a fully functional software-as-a-service for genomics ann
   * Free users may download their results file for a limited time after their job completes; thereafter the results file is archived, and only available to them if they convert to a Premium user. Premium users will always have all their data available for download.
 
 
+
 ## System Components
 The GAS service will comprise the following components:
 * An object store for input files, annotated (result) files, and job log files.
@@ -36,4 +37,10 @@ The GAS service will comprise the following components:
 * A service that runs AnnTools for annotation.
 * A web application for users to interact with the GAS.
 * A set of message queues and notification topics for coordinating system activity.
+
+
+## System Diagram
+![system diagram](https://github.com/keiraou/Cloud_Computing_Genomics_Annotation_Service/blob/main/GAS_system_diagram.png)
+
+
 
