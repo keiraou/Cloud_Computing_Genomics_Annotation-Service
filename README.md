@@ -29,7 +29,7 @@ This project built out a fully functional software-as-a-service for genomics ann
 
 
 ## System Components
-The GAS service will comprise the following components:
+The GAS service comprises the following components:
 * An object store for input files, annotated (result) files, and job log files.
 * A key-value store for persisting information on annotation jobs. 
 * A low cost, highly-durable object store for archiving the data of Free users. 
